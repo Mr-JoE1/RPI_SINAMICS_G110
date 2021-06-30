@@ -1,7 +1,7 @@
 ## - RPI_SINAMICS_G110
-C++ library communication to Siemens SINAMICS G110 inverter over USS protocol (RS-485) over UART GPIO or USB/RS485 modules 
-It supports all Raspberry Pi boards , Only test on Raspberry PI 3B+ board
-SINAMICS V20 can be also compatible but its not tested.
+C++ library communication to Siemens SINAMICS G110 inverter over USS protocol (RS-485) over UART GPIO or USB/RS485 modules. 
+- It supports all Raspberry Pi boards , Only test on Raspberry PI 3B+ board.
+- SINAMICS V20 can be also compatible but its not tested.
 
 You need a level shifter with MAX485/MAX484 chip for RS-485 voltage levels and must wire it to 3.3/GND and  TX/RX GPIO and a pin you can choose 
 for switching between sending and receiving on MAX485/max484 Or use RS485/USB modules for more reliablity.
